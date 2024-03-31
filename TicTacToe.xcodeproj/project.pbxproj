@@ -14,6 +14,8 @@
 		7F19816A2BBA16C100E487A6 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1981692BBA16C100E487A6 /* TicTacToeTests.swift */; };
 		7F1981742BBA16C100E487A6 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1981732BBA16C100E487A6 /* TicTacToeUITests.swift */; };
 		7F1981762BBA16C100E487A6 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1981752BBA16C100E487A6 /* TicTacToeUITestsLaunchTests.swift */; };
+		7F1981832BBA1A0F00E487A6 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1981822BBA1A0F00E487A6 /* Cell.swift */; };
+		7F1981852BBA1C8800E487A6 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1981842BBA1C8800E487A6 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7F19816F2BBA16C100E487A6 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1981732BBA16C100E487A6 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		7F1981752BBA16C100E487A6 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F1981822BBA1A0F00E487A6 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		7F1981842BBA1C8800E487A6 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				7F1981582BBA16C000E487A6 /* TicTacToeApp.swift */,
 				7F19815A2BBA16C000E487A6 /* ContentView.swift */,
+				7F1981842BBA1C8800E487A6 /* GameState.swift */,
+				7F1981822BBA1A0F00E487A6 /* Cell.swift */,
 				7F19815C2BBA16C100E487A6 /* Assets.xcassets */,
 				7F19815E2BBA16C100E487A6 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F19815B2BBA16C000E487A6 /* ContentView.swift in Sources */,
+				7F1981852BBA1C8800E487A6 /* GameState.swift in Sources */,
 				7F1981592BBA16C000E487A6 /* TicTacToeApp.swift in Sources */,
+				7F1981832BBA1A0F00E487A6 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
